@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login page</title>
+    <link rel="stylesheet" href="dist/style.css">
+</head>
+<body>
+    <header class="header">
+        <a href="index.php">
+            <h3>KINCOIN</h3>
+          </a>
+        <nav>
+          <ul>
+            <li>Home</li>
+            <li>Documentation</li>
+            <li>Contact</li>
+            <li>About</li>
+          </ul>
+        </nav>
+        
+      </header>
+      <main class="main">
+        <h1>payment system using blockchain/ register page</h1>
+        <form action="./app/php/register.php" method="post">
+            <label for="username">username</label>
+            <input type="text" name="username">
+            <label for="password">password</label>
+            <input type="password" name="password">
+            <input type="submit" name="submit" value="register">
+        </form>
+        <p>already have an account? <a href="login.html">login here</a></p>
+      </main>
+      
+         <script src="https://unpkg.com/peerjs@1.4.7/dist/peerjs.min.js"></script>
+      <script src="app.js"></script>
+      
+</body>
+</html>
