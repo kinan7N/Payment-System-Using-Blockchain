@@ -1,0 +1,66 @@
+.wallet{
+    padding: 2rem;
+    width: 75%;
+    height: 80vh;
+    margin: 0 auto;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    background-color: rgb(28, 63, 218);
+    &__header{
+        display: flex;
+        justify-content: space-between;
+        h4{
+            color: white;
+            font-size: 1.3rem;
+        }
+        p{
+            color: white;
+            font-size: 1.1rem;
+        }
+    }
+    &__body{
+        h2{
+            text-align: center;
+            color: rgb(253, 229, 8);
+            text-decoration: underline;
+        }
+        &__operations{
+            margin: 3rem;
+            display: flex;
+            justify-content: space-around;
+            &__operation{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                img{
+                    width: 3rem;
+                    height: auto;
+                    border-radius: 5px;
+                }
+                p{
+                    color: white;
+                    margin-top: 0.5rem;
+                }
+
+                &:hover{
+                    cursor: pointer;
+                }
+            }
+        }
+
+
+        .container{
+           
+            &__SendForm{
+
+                label{
+                    color: chartreuse;
+                }
+                input{
+                    width: 20rem;
+                    display: block;
+                }
+            }
+        }
+    }
+}

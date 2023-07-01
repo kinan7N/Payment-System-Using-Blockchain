@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header {
+  background-color: rgb(72, 37, 117);
+  display: flex;
+  justify-content: space-around;
+  padding: 1rem;
+}
+.header h3 {
+  cursor: pointer;
+  color: white;
+}
+.header nav ul li {
+  list-style-type: none;
+  display: inline;
+  margin: 0.4rem;
+  cursor: pointer;
+  color: white;
+}
+.header .btnlink {
+  color: white;
+  padding: 0.8rem;
+  background-image: linear-gradient(rgb(61, 136, 11), blue);
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.main form input {
+  display: block;
+}
+.main a {
+  color: red;
+}
+
+.wallet {
+  padding: 2rem;
+  width: 75%;
+  height: 80vh;
+  margin: 0 auto;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  background-color: rgb(28, 63, 218);
+}
+.wallet__header {
+  display: flex;
+  justify-content: space-between;
+}
+.wallet__header h4 {
+  color: white;
+  font-size: 1.3rem;
+}
+.wallet__header p {
+  color: white;
+  font-size: 1.1rem;
+}
+.wallet__body h2 {
+  text-align: center;
+  color: rgb(253, 229, 8);
+  text-decoration: underline;
+}
+.wallet__body__operations {
+  margin: 3rem;
+  display: flex;
+  justify-content: space-around;
+}
+.wallet__body__operations__operation {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.wallet__body__operations__operation img {
+  width: 3rem;
+  height: auto;
+  border-radius: 5px;
+}
+.wallet__body__operations__operation p {
+  color: white;
+  margin-top: 0.5rem;
+}
+.wallet__body__operations__operation:hover {
+  cursor: pointer;
+}
+.wallet__body .container__SendForm label {
+  color: chartreuse;
+}
+.wallet__body .container__SendForm input {
+  width: 20rem;
+  display: block;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,29 @@
+.header{
+    background-color: rgb(72, 37, 117);
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem;
+    h3{
+        cursor: pointer;
+        color: white;
+    }
+    nav{
+        ul{
+           
+            li{
+                list-style-type: none;
+                display: inline;
+                margin: 0.4rem;
+                cursor: pointer;
+                color: white;
+            }
+    }
+    }
+    .btnlink{
+        color: white;
+        padding: 0.8rem;
+        background-image: linear-gradient(rgb(61, 136, 11),blue);
+        border-radius: 5px;
+        cursor: pointer;
+    }
+}
