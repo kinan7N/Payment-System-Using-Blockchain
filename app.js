@@ -1,4 +1,4 @@
-const peers = ['peer1', 'peer2', 'peer3']; // IDs for your three peers
+const peers = ['peer1', 'peer2', 'peer3','peer4','peer5']; // IDs for your three peers
 const connections = {}; // Store connections
 let peer; // Declare peer object
 let isValidator = false; // Flag to identify the validator peer

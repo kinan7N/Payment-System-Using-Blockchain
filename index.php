@@ -169,7 +169,7 @@ createWalletButton.addEventListener('click', async () => {
 });
 
 </script>
-
+  <h4>enter your mnemonic to connect to wallet</h4>
    <!-- retrieve master seed form:-->
    <form id="mnemonicForm">
   <label for="mnemonicWord1">Word 1:</label>
